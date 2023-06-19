@@ -18,7 +18,6 @@ Original file is located at
 
 # Baixar as Bibliotecas Necessárias
 import requests  # Usado para obter o conteúdo HTML
-from bs4 import BeautifulSoup  # Usado para extrair os dados
 import pandas as pd  # Usada para analisar e manipular os dados
 import streamlit as st
 
