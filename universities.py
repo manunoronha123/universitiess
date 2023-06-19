@@ -20,7 +20,7 @@ Original file is located at
 import requests  # Usado para obter o conteúdo HTML
 import pandas as pd  # Usada para analisar e manipular os dados
 import streamlit as st
-
+from bs4 import BeautifulSoup 
 # Organizar/Localizar as tabelas
 def fazer_raspagem():  # Definir a função que vai fazer a raspagem
     url = "https://www.earj.com.br/university-acceptances/"
